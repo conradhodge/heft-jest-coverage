@@ -1,0 +1,22 @@
+{
+  "name": "something",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "heft test --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rushstack/eslint-config": "^3.3.2",
+    "@rushstack/heft-jest-plugin": "^0.7.11",
+    "@rushstack/heft-node-rig": "^2.2.10",
+    "@rushstack/heft": "^0.56.0",
+    "@types/heft-jest": "^1.0.3",
+    "@types/node": "^18.11.9",
+    "eslint": "^8.43.0",
+    "typescript": "^5.1.5"
+  }
+}
